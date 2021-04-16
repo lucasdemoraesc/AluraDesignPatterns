@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{428DE733-B2B1-4675-A790-08D8416EAD19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeStrategy", "AtividadeStrategy\AtividadeStrategy.csproj", "{E2A6CC75-DD98-4632-9519-7A8E403D9F05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{428DE733-B2B1-4675-A790-08D8416EAD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428DE733-B2B1-4675-A790-08D8416EAD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428DE733-B2B1-4675-A790-08D8416EAD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428DE733-B2B1-4675-A790-08D8416EAD19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A6CC75-DD98-4632-9519-7A8E403D9F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A6CC75-DD98-4632-9519-7A8E403D9F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A6CC75-DD98-4632-9519-7A8E403D9F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A6CC75-DD98-4632-9519-7A8E403D9F05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFA291B0-48ED-4A2F-8C86-71FC0BC836A3}
+	EndGlobalSection
+EndGlobal
