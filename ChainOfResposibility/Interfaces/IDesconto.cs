@@ -6,6 +6,6 @@ namespace ChainOfResposibility.Interfaces
     {
         IDesconto Proximo { get; set; }
 
-        double Desconta(Orcamento oramento);
+        double Desconta(Orcamento orcamento);
     }
 }

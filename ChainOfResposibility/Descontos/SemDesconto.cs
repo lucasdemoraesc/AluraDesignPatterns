@@ -7,7 +7,7 @@ namespace ChainOfResposibility.Descontos
     {
         public IDesconto Proximo { get; set; }
 
-        public double Desconta(Orcamento oramento)
+        public double Desconta(Orcamento orcamento)
         {
             return 0;
         }

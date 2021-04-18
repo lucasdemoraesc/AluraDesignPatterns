@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeStrategy", "Ativid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResposibility", "ChainOfResposibility\ChainOfResposibility.csproj", "{C71910AD-0942-4448-97A7-18D6489293FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeChainOfResposibility", "AtividadeChainOfResposibility\AtividadeChainOfResposibility.csproj", "{628C138A-7F9D-43FD-832D-D3997C2B5657}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C71910AD-0942-4448-97A7-18D6489293FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C71910AD-0942-4448-97A7-18D6489293FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C71910AD-0942-4448-97A7-18D6489293FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628C138A-7F9D-43FD-832D-D3997C2B5657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628C138A-7F9D-43FD-832D-D3997C2B5657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628C138A-7F9D-43FD-832D-D3997C2B5657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628C138A-7F9D-43FD-832D-D3997C2B5657}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

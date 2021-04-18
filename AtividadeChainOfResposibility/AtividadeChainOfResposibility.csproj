@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C71910AD-0942-4448-97A7-18D6489293FB}</ProjectGuid>
+    <ProjectGuid>{628C138A-7F9D-43FD-832D-D3997C2B5657}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ChainOfResposibility</RootNamespace>
-    <AssemblyName>ChainOfResposibility</AssemblyName>
+    <RootNamespace>AtividadeChainOfResposibility</RootNamespace>
+    <AssemblyName>AtividadeChainOfResposibility</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculadorDeDescontos.cs" />
-    <Compile Include="Descontos\DescontoPorCincoItens.cs" />
-    <Compile Include="Descontos\DescontoPorMaisDeQuinhentosReais.cs" />
-    <Compile Include="Descontos\DescontoPorVendaCasada.cs" />
-    <Compile Include="Interfaces\IDesconto.cs" />
-    <Compile Include="Models\Item.cs" />
-    <Compile Include="Models\Orcamento.cs" />
+    <Compile Include="Formatos\RespostaEmCSV.cs" />
+    <Compile Include="Formatos\RespostaEmPorcento.cs" />
+    <Compile Include="Formatos\RespostaEmXML.cs" />
+    <Compile Include="Models\Conta.cs" />
+    <Compile Include="Models\EFormato.cs" />
+    <Compile Include="FormatadorDeConta.cs" />
+    <Compile Include="Interfaces\IResposta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Descontos\SemDesconto.cs" />
+    <Compile Include="Models\Requisicao.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Atividade.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
