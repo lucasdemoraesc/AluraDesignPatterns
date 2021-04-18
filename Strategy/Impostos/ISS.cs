@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Strategy.Interfaces;
+using Strategy.Models;
 
-namespace Strategy
+namespace Strategy.Impostos
 {
     public class ISS : IImposto
     {

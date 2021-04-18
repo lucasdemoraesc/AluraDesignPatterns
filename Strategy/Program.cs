@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Strategy.Impostos;
+using Strategy.Interfaces;
+using Strategy.Models;
+using System;
 
 namespace Strategy
 {

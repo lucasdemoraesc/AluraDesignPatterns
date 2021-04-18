@@ -1,4 +1,7 @@
-﻿namespace Strategy
+﻿using Strategy.Interfaces;
+using Strategy.Models;
+
+namespace Strategy.Impostos
 {
     public class ICCC : IImposto
     {

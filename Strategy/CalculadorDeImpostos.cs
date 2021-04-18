@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Strategy.Interfaces;
+using Strategy.Models;
+using System;
 
 namespace Strategy
 {
