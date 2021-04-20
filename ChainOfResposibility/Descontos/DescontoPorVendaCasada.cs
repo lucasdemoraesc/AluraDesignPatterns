@@ -1,18 +1,20 @@
-﻿using ChainOfResposibility.Interfaces;
-using ChainOfResposibility.Models;
+﻿using ChainOfResposibility.Models;
 
 namespace ChainOfResposibility.Descontos
 {
-    public class DescontoPorVendaCasada : IDesconto
+    public class DescontoPorVendaCasada : TemplateNode
     {
-        public IDesconto Proximo { get; set; }
-
-        public double Desconta(Orcamento orcamento)
+        protected override bool AplicaDescontoEm(Orcamento orcamento)
         {
             if (aconteceuVendaCasadaEm(orcamento))
-                return orcamento.Valor * 0.05;
+                return true;
             else
-                return Proximo.Desconta(orcamento);
+                return false;
+        }
+
+        protected override double CalculaDesconto(Orcamento orcamento)
+        {
+            return orcamento.Valor * 0.05;
         }
 
         private bool aconteceuVendaCasadaEm(Orcamento orcamento)

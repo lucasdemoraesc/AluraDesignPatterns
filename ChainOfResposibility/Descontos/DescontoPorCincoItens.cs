@@ -3,16 +3,19 @@ using ChainOfResposibility.Models;
 
 namespace ChainOfResposibility.Descontos
 {
-    public class DescontoPorCincoItens : IDesconto
+    public class DescontoPorCincoItens : TemplateNode
     {
-        public IDesconto Proximo { get; set; }
-
-        public double Desconta(Orcamento orcamento)
+        protected override bool AplicaDescontoEm(Orcamento orcamento)
         {
             if (orcamento.Itens.Count > 5)
-                return orcamento.Valor * 0.1;
+                return true;
             else
-                return Proximo.Desconta(orcamento);
+                return false;
+        }
+
+        protected override double CalculaDesconto(Orcamento orcamento)
+        {
+            return orcamento.Valor * 0.1;
         }
     }
 }

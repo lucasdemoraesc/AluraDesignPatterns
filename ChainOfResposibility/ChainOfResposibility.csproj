@@ -47,6 +47,7 @@
     <Compile Include="Descontos\DescontoPorCincoItens.cs" />
     <Compile Include="Descontos\DescontoPorMaisDeQuinhentosReais.cs" />
     <Compile Include="Descontos\DescontoPorVendaCasada.cs" />
+    <Compile Include="Descontos\TemplateNode.cs" />
     <Compile Include="Interfaces\IDesconto.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\Orcamento.cs" />

@@ -1,15 +1,23 @@
-﻿using ChainOfResposibility.Interfaces;
-using ChainOfResposibility.Models;
+﻿using ChainOfResposibility.Models;
+using System;
 
 namespace ChainOfResposibility.Descontos
 {
-    public class SemDesconto : IDesconto
+    public class SemDesconto : TemplateNode
     {
-        public IDesconto Proximo { get; set; }
+        protected override bool AplicaDescontoEm(Orcamento orcamento)
+        {
+            return true;
+        }
 
-        public double Desconta(Orcamento orcamento)
+        protected override double CalculaDesconto(Orcamento orcamento)
         {
             return 0;
+        }
+
+        protected override double ProximoNode(Orcamento orcamento)
+        {
+            throw new Exception("Não há mais descontos");
         }
     }
 }
