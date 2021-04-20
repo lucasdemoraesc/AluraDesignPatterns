@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResposibility", "Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeChainOfResposibility", "AtividadeChainOfResposibility\AtividadeChainOfResposibility.csproj", "{628C138A-7F9D-43FD-832D-D3997C2B5657}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{04D94F77-442C-48EF-B414-D974B421AD7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeTemplateMethod", "AtividadeTemplateMethod\AtividadeTemplateMethod.csproj", "{74AD3CBC-BBF3-4DF0-AC7A-4C21E0D780DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{628C138A-7F9D-43FD-832D-D3997C2B5657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{628C138A-7F9D-43FD-832D-D3997C2B5657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{628C138A-7F9D-43FD-832D-D3997C2B5657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D94F77-442C-48EF-B414-D974B421AD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D94F77-442C-48EF-B414-D974B421AD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D94F77-442C-48EF-B414-D974B421AD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D94F77-442C-48EF-B414-D974B421AD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AD3CBC-BBF3-4DF0-AC7A-4C21E0D780DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AD3CBC-BBF3-4DF0-AC7A-4C21E0D780DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AD3CBC-BBF3-4DF0-AC7A-4C21E0D780DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AD3CBC-BBF3-4DF0-AC7A-4C21E0D780DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
