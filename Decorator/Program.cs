@@ -9,22 +9,12 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            Imposto iss = new ISS(
-                new ICMS(
-                    new IKCV(
-                        new ICPP(
-                            new ICCC(
-                                new IHIT()
-                                )
-                            )
-                        )
-                    )
-                );
+            Imposto impostos = new ImpostoMuitoAlto(new ICMS());
 
             Orcamento orcamento = new Orcamento();
             orcamento.AdicionaItem(new Item("CANETA", 500));
 
-            double valor = iss.Calcula(orcamento);
+            double valor = impostos.Calcula(orcamento);
 
             Console.WriteLine(valor);
             Console.ReadKey();
