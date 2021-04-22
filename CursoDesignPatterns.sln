@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeDecorator", "Ativi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{3E993EAF-C45F-45F7-9F4D-AED350FC92AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeState", "AtividadeState\AtividadeState.csproj", "{D6DE2FF2-F75B-4BC9-9D45-6C3BD8CC307C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{3E993EAF-C45F-45F7-9F4D-AED350FC92AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E993EAF-C45F-45F7-9F4D-AED350FC92AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E993EAF-C45F-45F7-9F4D-AED350FC92AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DE2FF2-F75B-4BC9-9D45-6C3BD8CC307C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DE2FF2-F75B-4BC9-9D45-6C3BD8CC307C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DE2FF2-F75B-4BC9-9D45-6C3BD8CC307C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DE2FF2-F75B-4BC9-9D45-6C3BD8CC307C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

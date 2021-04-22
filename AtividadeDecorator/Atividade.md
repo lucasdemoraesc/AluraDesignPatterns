@@ -1,4 +1,4 @@
-﻿# Atividade: Template Method
+﻿# Atividade: Decorator
 
 Ao identificar contas que possam ser fraudulentas, um banco possui uma série de filtros que devem ser aplicados sobre uma lista de contas.
 

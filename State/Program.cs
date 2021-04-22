@@ -18,9 +18,6 @@ namespace State
             reforma.AplicaDescontoExtra();
             Console.WriteLine(reforma.Valor);
 
-            reforma.Finaliza();
-            reforma.AplicaDescontoExtra();
-
             Console.ReadKey();
         }
     }
