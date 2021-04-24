@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Estados\SaldoNegativo.cs" />
+    <Compile Include="Estados\SaldoPositivo.cs" />
+    <Compile Include="Interfaces\IEstadoConta.cs" />
+    <Compile Include="Models\Conta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
