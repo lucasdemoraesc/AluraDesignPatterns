@@ -19,6 +19,7 @@ namespace Builder.Builders
 
         public CriadorDeNotaFiscal()
         {
+            this.DataDeEmissao = DateTime.Now;
             this._itens = new List<ItemDaNota>();
         }
 
@@ -47,17 +48,17 @@ namespace Builder.Builders
             return this;
         }
 
-        public CriadorDeNotaFiscal ComItem(ItemDaNota item)
+        public CriadorDeNotaFiscal Com(ItemDaNota itemNovo)
         {
-            this._itens.Add(item);
-            this.ValorBruto += item.Valor;
-            this.Impostos = item.Valor * 0.05;
+            this._itens.Add(itemNovo);
+            this.ValorBruto += itemNovo.Valor;
+            this.Impostos = itemNovo.Valor * 0.05;
             return this;
         }
 
-        public CriadorDeNotaFiscal NaDataAtual()
+        public CriadorDeNotaFiscal NaData(DateTime data)
         {
-            this.DataDeEmissao = DateTime.Now;
+            this.DataDeEmissao = data;
             return this;
         }
 

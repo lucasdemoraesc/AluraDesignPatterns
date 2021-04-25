@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builders\CriadorDeItemDaNota.cs" />
     <Compile Include="Builders\CriadorDeNotaFiscal.cs" />
     <Compile Include="Models\ItemDaNota.cs" />
     <Compile Include="Models\NotaFiscal.cs" />
